@@ -1,0 +1,5 @@
+sudo amazon-linux-extras disable php7.2
+sudo amazon-linux-extras enable php7.4
+yum clean metadata
+yum install php-cli php-pdo php-fpm php-json php-mysqlnd
+

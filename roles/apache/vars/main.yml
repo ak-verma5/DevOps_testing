@@ -1,0 +1,6 @@
+---
+# vars file for apache
+#HTTP Settings
+http_host: "wp.example.com"
+http_conf: "wp.example.com.conf"
+http_port: "80"
